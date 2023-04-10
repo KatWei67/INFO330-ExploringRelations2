@@ -4,3 +4,4 @@ INNER JOIN invoice_items ON tracks.TrackId = invoice_items.TrackId
 INNER JOIN invoices ON invoices.InvoiceId = invoice_items.InvoiceId 
 GROUP BY tracks.TrackId 
 ORDER BY total_purchased DESC
+-- 32 Dentes was the most purchased track of 2013.
