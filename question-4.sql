@@ -6,4 +6,4 @@ INNER JOIN invoices ON customers.CustomerId = invoices.CustomerId
 WHERE strftime('%Y', invoices.InvoiceDate) = '2010' 
 GROUP BY employees.EmployeeId 
 ORDER BY total_sales DESC;
--- Thus, MargaretPark made the most in sales in 2010
+-- JanePeacock made the most in sales in 2010
