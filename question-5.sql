@@ -4,4 +4,4 @@ INNER JOIN invoice_items ON tracks.TrackId = invoice_items.TrackId
 INNER JOIN invoices ON invoices.InvoiceId = invoice_items.InvoiceId
 WHERE strftime('%Y', invoices.InvoiceDate) = '2013'
 GROUP BY tracks.TrackId 
-ORDER BY total_purchased DESC
+ORDER BY total_purchased DESC;
